@@ -7,9 +7,11 @@ Created on Tue May 10 15:19:57 2022
 
 This script counts amino acid mutations that have occured throughout a phylogenetic tree.
 
-File requirements: Species tree, gene tree (generated from IQ-TREE ASR), ancestral state reconstruction alignment (FASTA) and multiple sequence alignment (FASTA).
+File requirements: Gene tree (generated from IQ-TREE ASR), ancestral state reconstruction alignment (FASTA) and multiple sequence alignment (FASTA).
 
+Outputs: mutation matrices for each site (.txt) and a list of amino acid substitutions (.csv).
 
+The user needs to change the working directory to example data files. If using for a different tree mrca_of_interest and outgroup_mrca will also have to be tailored to your dataset.
 """
 #IMPORT LIBRARIES
 import os
